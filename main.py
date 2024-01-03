@@ -49,3 +49,4 @@ def trigger_dag_gcf(data, context=None):
     dag_id = 'flipkart-mobile-prices-etl-dag'
 
     Flipkart_rest_api.trigger_dag(web_server_url, dag_id, data)
+    #added
